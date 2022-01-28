@@ -30,3 +30,6 @@ dependencies {
 application {
     mainClass = 'retro.server.AppKt'
 }
+
+task stage(dependsOn: ['build', 'clean'])
+build.mustRunAfter clean
