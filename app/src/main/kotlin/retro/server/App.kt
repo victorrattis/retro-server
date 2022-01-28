@@ -8,10 +8,10 @@ import retro.server.repository.Meeting
 import retro.server.repository.MemoryMeetingDataSource
 
 @SpringBootApplication
-open class PlantsApplication
+open class App
 
 fun main(args: Array<String>) {
-	runApplication<PlantsApplication>(*args)
+	runApplication<App>(*args)
 }
 
 @RestController
