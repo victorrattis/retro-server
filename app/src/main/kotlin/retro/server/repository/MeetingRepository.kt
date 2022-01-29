@@ -44,7 +44,8 @@ class MeetingRepository {
                 session.name,
                 session.description,
                 session.columns,
-                session.highlight
+                session.highlight,
+                session.stickies.size
             ) }
     }
 

@@ -6,5 +6,6 @@ data class SessionResponse(
     val name: String,
     val description: String,
     val columns: List<CreateColumnDetail>,
-    val highlight: String
+    val highlight: String,
+    val answer: Int
 )
